@@ -1,20 +1,27 @@
 void setup()
 {
-size(250,250);
+size(500,500);
+background(0,105,108);
 }
 void draw(){
+  fill(173,216, 230);
+rect(0, 0, 500, 300);
+  fill(255,211,0);
+arc(500, 0, 240, 240, PI/2, PI);
   fill(1, 50, 32);
-ellipse(90, 120, 40, 75);//neck
+ellipse(180, 240, 80, 150);//neck
   fill(255,255,255);
-ellipse(150, 150, 170, 60);//body
+ellipse(300, 300, 340, 120);//body
   fill(1, 50 ,32);
-ellipse(80 , 75, 75 , 60);//head
+ellipse(160 , 150, 150, 120);//head
   fill(255,255,0);
-triangle(20,85, 50,75, 50, 95);//beak
+triangle(45,170, 105,150, 105, 190);//beak
   fill(255,255,255);
-ellipse(80, 75, 25, 25);//eyes
+ellipse(160, 150, 50, 50);//eyes
   fill(1, 50, 32);
-ellipse(80, 75, 10,10);
-  fill(0,0,0);
-ellipse(150, 135, 170, 30);//wing
+ellipse(160, 150, 20,20);
+  fill(61, 43, 31);
+ellipse(300, 270, 340, 60);//wing
+  fill(255,255,255);
+rect(140,220,80, 20);//line in neck
 }
